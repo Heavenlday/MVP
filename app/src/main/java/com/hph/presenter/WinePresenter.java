@@ -16,7 +16,7 @@ public class WinePresenter {
       private IWineBiz iWineBiz;
       private  WineView wineView;
       private Handler mhandler=new Handler();
-
+      private String a;
    public   WinePresenter(WineView wineView)
    {
        this.iWineBiz=new WineBiz();
